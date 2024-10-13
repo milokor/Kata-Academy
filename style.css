@@ -81,7 +81,7 @@ button:hover {
     height: 32px;
     border-radius: 1px;
     background: #eaeaea;
-    margin-left: 17px;
+    margin: 0 17px;
 }
 
 .header__button-text {
@@ -113,6 +113,9 @@ color: #1b1c21;
     transform: translateY(-25%);
 }
 
+.header__button-icon-profile {
+    padding-left: 0;
+}
 
 .main__sub-container {
     display: flex;
@@ -194,10 +197,6 @@ margin-right: 9px;
 .main__slider-link:last-child {
     margin-right: 0;
 }
-
-/* .main__slider-list {
-min-width: auto;
-} */
 
 .main__img {
 width: 100%; 
