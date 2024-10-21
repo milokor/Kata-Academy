@@ -328,9 +328,6 @@ align-self: start;
     .header__button {
         background-color: #f8f8f8;
     }
-    /* .main__title {
-        display: none;
-    } */
     .main__sub-container {
         flex-direction: row;
     }
@@ -364,7 +361,8 @@ align-self: start;
         top:10px;
         margin-left:30px;
     }
-    .main__title::before {
+    
+.main__title::before {
     content: "";
     height: 40px;
     width: 4px;
