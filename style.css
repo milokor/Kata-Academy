@@ -285,10 +285,11 @@ align-self: start;
     .main__content-text-container {
         max-width: 312px;
     }
+    
     .main__img {
-    max-width: 360px;
     margin-left: 48px;
     }
+
     .main__slider-menu {
        margin-left: 24px; 
     }
@@ -341,8 +342,7 @@ align-self: start;
         flex-direction: row;
     }
     .main__img {
-        width: 531px;
-        margin-left: 36px;
+       width: 470px;
     }
     .main__slider-menu {
         width: 1000px;
