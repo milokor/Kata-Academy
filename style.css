@@ -285,10 +285,10 @@ align-self: start;
     .main__content-text-container {
         max-width: 312px;
     }
-.main__img {
+    .main__img {
     max-width: 360px;
     margin-left: 48px;
-}
+    }
     .main__slider-menu {
        margin-left: 24px; 
     }
@@ -300,6 +300,15 @@ align-self: start;
 }
 
 @media (min-width: 1121px) {
+    .main {
+        max-width: 1920px;
+    }
+    .main__slider {
+     max-width: 1096px;    
+    }
+    .main__content-text-container {
+        max-width: 490px;
+    }
     .header__button-icon {
         display: none;
     }
